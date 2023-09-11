@@ -15,5 +15,4 @@ python main_fed.py      --dataset cifar \
                         --triggerX 27 \
                         --triggerY 27 \
                         --gpu 0 \
-                        --save save/your_experiments \
                         --iid 0
