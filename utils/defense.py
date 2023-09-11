@@ -289,6 +289,7 @@ def flame(local_model, update_params, global_model, args):
     cos_list=[]
     local_model_vector = []
     for param in local_model:
+        print(param)
         # local_model_vector.append(parameters_dict_to_vector_flt_cpu(param))
         local_model_vector.append(parameters_dict_to_vector_flt(param))
     for i in range(len(local_model_vector)):
